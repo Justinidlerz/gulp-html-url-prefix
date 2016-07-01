@@ -1,0 +1,26 @@
+{
+  "name": "gulp-html-url-prefix",
+  "version": "0.1.0",
+  "description": "a gulp plugin for set html url prefix",
+  "main": "index.js",
+  "dependencies": {
+    "balanced-match": "^0.2.1",
+    "concat-stream": "^1.5.1",
+    "extend": "^3.0.0",
+    "fastparse": "^1.1.1",
+    "flatnest": "^1.0.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "plugin",
+    "prefix"
+  ],
+  "author": "idler",
+  "license": "ISC"
+}
