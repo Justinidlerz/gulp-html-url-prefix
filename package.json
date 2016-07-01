@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-url-prefix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a gulp plugin for set html url prefix",
   "main": "index.js",
   "dependencies": {
@@ -10,6 +10,10 @@
     "fastparse": "^1.1.1",
     "flatnest": "^1.0.0",
     "through2": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinidlerz/gulp-html-url-prefix.git"
   },
   "devDependencies": {},
   "scripts": {
@@ -21,6 +25,9 @@
     "plugin",
     "prefix"
   ],
+  "bugs": {
+    "url": "https://github.com/coderhaoxin/gulp-file-include/issues"
+  },
   "author": "idler",
-  "license": "ISC"
+  "license": "MIT"
 }

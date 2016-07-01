@@ -15,7 +15,7 @@ npm install gulp-html-url-prefix
 ### options
 
 * options - type: `object`
-  - prefix: `string`, default ``
+  - prefix: `string`, default ` `
 
 ```js
 urlPrefix({
