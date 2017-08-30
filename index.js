@@ -44,7 +44,7 @@ module.exports = function(opts) {
         rawLinks.forEach(function(link) {
             var length = link.length;
             var start = link.start;
-            var valueList = link.value.split(",");
+            var valueList = link.value.match(/([^,]+\s\d+\w+)/g) || [link.value];
             valueList.forEach(function(newLink) {
                 var trimmed = newLink.trim();
                 var cLength = newLink.length;
